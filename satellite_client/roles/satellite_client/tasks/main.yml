@@ -1,9 +1,4 @@
 ---
-- name: Workaround for a non working DNS
-  lineinfile: 
-    dest: /etc/hosts
-    line: "{{ sat6_ip }} {{ sat6_fqdn }} sat6"
-#
 # If hostgroup != 'false' (i.e. install the client to be managed by Puppet)
 #
 - name: Download bootstrap.py from {{ sat6_fqdn }} 
