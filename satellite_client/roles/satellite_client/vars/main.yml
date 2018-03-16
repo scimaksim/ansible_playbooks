@@ -1,8 +1,3 @@
 ---
 # vars file 
-sat6_fqdn: satellite.mlab.com
-admin_user: admin  
-org: Default_Organization  
-hostgroup: false  
-activationkey: 7.4  
-updatehost: "true" 
+
