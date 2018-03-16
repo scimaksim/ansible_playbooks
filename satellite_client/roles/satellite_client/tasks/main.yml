@@ -36,7 +36,7 @@
   yum:
     name: katello-agent
     state: latest
-  when: hostgroup|lower == 'false' and registered|succeeded
+  when: hostgroup|lower == 'false' and registered is succeeded
   notify:
     - Start katello-agent
     - Enable katello-agent
